@@ -1,0 +1,46 @@
+
+/* Fix desktop navigation overflow */
+.site-nav {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.site-nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+
+.site-nav .brand {
+    flex-shrink: 0;
+}
+
+.site-nav .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav .nav-links a {
+    white-space: nowrap;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+    .site-nav .container {
+        padding: 12px 18px;
+    }
+
+    .site-nav .nav-links {
+        gap: 16px;
+    }
+}

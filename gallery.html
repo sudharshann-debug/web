@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — Kalam Tuition Centre</title>
+<link rel="icon" type="image/png" href="assets/images/favicon-64.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand"><img src="assets/images/logo.jpg" alt="Kalam Tuition Centre logo" class="logo-mark">Kalam Tuition Centre</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="founder.html">Team</a></li>
+      <li><a href="contact.html">Visit Us</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <span class="kicker">Gallery</span>
+    <h1>Life at the centre.</h1>
+    <p>A look inside our classrooms, labs and the events that punctuate the year. Replace the placeholders below with your own photos — see the note in the page source.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <!--
+      Replace each placeholder <img src="..."> with your real photo, e.g.
+      <img src="assets/images/science-lab.jpg" alt="Students in the science lab">
+      Keep photos roughly 4:3 so they sit neatly in the frame.
+    -->
+    <div class="gallery-board">
+      <div class="gallery-grid">
+        <div class="gallery-item reveal reveal-pin"><span class="pin"></span><div class="frame"><img src="assets/images/clas.jpeg" alt="Classroom session in progress"></div><span class="cap">Classroom, Bhavani</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="60"><span class="pin"></span><div class="frame"><img src="assets/images/clel.jpeg" alt="Science laboratory"></div><span class="cap">New year 2026 </span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="120"><span class="pin"></span><div class="frame"><img src="assets/images/farewell.jpeg" alt="Annual day celebration"></div><span class="cap">Farewell 26' batch </span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="180"><span class="pin"></span><div class="frame"><img src="assets/images/cele2  brithdya.jpeg" alt="Students studying together"></div><span class="cap">Kalam Brithday celebration</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="240"><span class="pin"></span><div class="frame"><img src="assets/images/day out.jpeg" alt="img not found"></div><span class="cap">Weekly Day Out</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="300"><span class="pin"></span><div class="frame"><img src="assets/images/onam celebration.jpeg" alt="Award distribution"></div><span class="cap">Onam Celebration 2k26</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="360"><span class="pin"></span><div class="frame"><img src="assets/images/pongal celebreation.jpeg" alt="Language lab"></div><span class="cap">Pongal Celebration 2k26</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="420"><span class="pin"></span><div class="frame"><img src="assets/images/classroom.jpeg" alt="Parents' meeting"></div><span class="cap">Classroom</span></div>
+        <div class="gallery-item reveal reveal-pin" data-delay="480"><span class="pin"></span><div class="frame"><img src="assets/images/kpm pongal.jpeg" alt="Field trip"></div><span class="cap">Kumarapalayam Pongal Celebration 2k26 </span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>© <span id="year"></span> Kalam Tuition Centre</span>
+    <span>Komarapalayam &amp; Bhavani, Tamil Nadu</span>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
